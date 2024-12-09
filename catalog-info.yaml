@@ -44,4 +44,4 @@ spec:
   owner: frontend
   system: examples
   dependsOn:
-    - component:artist-web
+    - component:default/artist-web
