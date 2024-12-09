@@ -43,3 +43,5 @@ spec:
   lifecycle: production
   owner: frontend
   system: examples
+  dependsOn:
+    - component:examples/artist-web
