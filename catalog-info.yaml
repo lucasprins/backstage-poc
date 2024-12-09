@@ -20,6 +20,9 @@ spec:
   lifecycle: production
   owner: frontend
   system: examples
+  dependsOn:
+    - component:default/artist-backend
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -43,5 +46,3 @@ spec:
   lifecycle: production
   owner: frontend
   system: examples
-  dependsOn:
-    - component:default/artist-web
