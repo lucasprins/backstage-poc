@@ -20,7 +20,7 @@ spec:
   type: website
   lifecycle: production
   owner: frontend
-  system: examples
+  system: core-components
   dependsOn:
     - component:default/artist-backend
 
@@ -46,4 +46,4 @@ spec:
   type: website
   lifecycle: production
   owner: frontend
-  system: examples
+  system: core-components
